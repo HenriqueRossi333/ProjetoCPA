@@ -18,9 +18,27 @@
     font-size: 15px;
 }
 
-#div_form form input{
+#div_form form input, button{
     width: 337px;
     height: 30px;
     border: 2px solid rgb(28, 28, 28);
     border-radius: 12px;
+}
+
+#div_form form button{
+    height: 45px;
+    margin-bottom: 12px;
+    margin-top: 15px;
+    background-color: rgb(28, 28, 28);
+    color: yellow;
+    font-size: 20px;
+}
+
+#div_form form button:hover{
+    cursor: pointer;
+    transition: all 0.5s ease;
+    background-color: yellow;
+    border: 3px solid rgb(28, 28, 28);
+    font-weight: 500;
+    color: rgb(28, 28, 28);
 }
