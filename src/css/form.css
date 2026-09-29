@@ -1,0 +1,26 @@
+#div_form {
+    width: 500px;
+    height: auto;
+    background-color: yellow;
+    border-radius: 12px;
+}
+
+#div_form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#div_form form label{
+    font-weight: 700;
+    color: rgb(28, 28, 28);
+    font-size: 15px;
+}
+
+#div_form form input{
+    width: 337px;
+    height: 30px;
+    border: 2px solid rgb(28, 28, 28);
+    border-radius: 12px;
+}
