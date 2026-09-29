@@ -1,31 +1,33 @@
 #div_form {
-    width: 500px;
+    width: 100%;
     height: auto;
-    background-color: yellow;
-    border-radius: 12px;
 }
 
 #div_form form {
+    width: auto;
+    height: auto;
+    border-radius: 12px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-#div_form form label{
+#div_form form label {
     font-weight: 700;
-    color: rgb(28, 28, 28);
+    color: yellow;
     font-size: 15px;
 }
 
-#div_form form input, button{
+#div_form form input,
+button {
     width: 337px;
     height: 30px;
-    border: 2px solid rgb(28, 28, 28);
+    border: 2px solid yellow;
     border-radius: 12px;
 }
 
-#div_form form button{
+#div_form form button {
     height: 45px;
     margin-bottom: 12px;
     margin-top: 15px;
@@ -34,11 +36,31 @@
     font-size: 20px;
 }
 
-#div_form form button:hover{
+#div_form form button:hover {
     cursor: pointer;
     transition: all 0.5s ease;
     background-color: yellow;
     border: 3px solid rgb(28, 28, 28);
+    font-weight: 500;
+    color: rgb(28, 28, 28);
+}
+
+#voltar_button {
+    height: 45px;
+    margin-bottom: 12px;
+    margin-top: 15px;
+    background-color: rgb(28, 28, 28);
+    color: yellow;
+    font-size: 20px;
+    text-decoration: none;
+    border: 3px solid yellow;
+    border: 3px solid yellow;
+}
+
+#voltar_button:hover {
+    cursor: pointer;
+    transition: all 0.5s ease;
+    background-color: yellow;
     font-weight: 500;
     color: rgb(28, 28, 28);
 }
